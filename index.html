@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
 </head>
-<body>
-    
+<br>
+<!-- <div>
+    <button onclick="objAlert()">Click for Alert</button></br></br>
+    <button onclick="objconfirm()">Click for Confirmation</button></br></br>
+    <button onclick="objPrompt()">Click for Prompt</button></br></br>
+    <button onclick="objOpen()">Click for Open</button></br></br>
+    <button onclick="objClose()">Click for Close</button></br></br>
+</div> -->
+
 
     <script>
         
@@ -16,354 +23,416 @@
             Multipul line comment
             10.31
         */
-       // js variable & case sensative & privitive data type.
-    //    var x= 10;
-    //    var y = 20 ;
-    //    var z = x+y;
-    //    document.write(z);
-
-    // 5.Non-primitive data type(obj,array).
-    // var info={
-    //     name:"jahid",
-    //     age:22,
-    //     city:"Dhaka",
-    // }
-    // document.write(info);
-    // document.write(info.name);
-    // document.write(info.age);
-    // document.write(info.city);
-
-    // var cities=['dhaka', 'Rangpur', 'Rajshahi']
-
-
-    // 6 Introduce With Operator
-    // goto img directory 
-
-
-    // 7 If Else Statement
-    // var age = 8;
-    // var city = "Dhaka";
-    // if(age>18 && city == "Dhaka"){
-    //     document.write('You are Adult')
-    // }else if(age = 18 && city == "Dhaka"){
-    //     document.write('You are Tinager');
-    // }else{
-    //     document.write('You are child');
-    // }
-
-    
-
-    // 8 Switch Case
-    // var marks = 100;
-    // switch(true){
-    //     case(marks<=100 && marks >= 80):
-    //         document.write('A+');
-    //     break;
-    //     case(marks<=79 && marks >= 70):
-    //         document.write('A');
-    //     break;
-    //     case(marks<=69 && marks >= 60):
-    //         document.write('B');
-    //     break;
-    //     case(marks<=59 && marks >= 50):
-    //         document.write('C');
-    //     break;
-    //     default:
-    //         document.write('D');
-    // }
-
-    // 9 Basic for loop
-    // var i;
-    // for(i=1;i<=10;i=i+1){
-    //     document.write(i+"<button>Submit</button><br>");
-    // }
-
-    // 10 Loop break continue
-    // var i;
-    // for(i=1;i<=10;i=i+1){
-    //     if(i==5){
-    //         // continue; // for ignore line no 5;
-    //     }
-    //     if(i==5){
-    //         break; // Stop loop 
-    //     }
-    //     document.write(i+"<button>Submit</button><br>");
-    // }
-
-    // 11 While Loop(entry control loop).
-    // var i = 0;
-    // while(i<3){
-    //     document.write(i+"<button>while Loop</button> <br>");
-    //     i=i+1;
-    // }
-
-
-    // 12 do while loop(exit control loop)
-    // var i = 0;
-    // do{
-    //     document.write(i+"<button>do whiloe Loop</button><br>");
-    //     i = i+1;
-    // }while(i<3)
-
-
-    // 13 JavaScript function
-    // function sum(){
-    //     var num1 = 10;
-    //     var num2 = 30;
-    //     var num3 = num1+num2;
-    //     document.write(num3+"<br>");
-    // }
-    // sum();
-    // sum();
-    // sum();
-
-    // 14 Function Parameter
-    // function sum(num1, num2){
-    //     var num3 = num1+num2;
-    //     document.write(num3+"<br>");
-    // }
-    // sum(1,2);
-    // sum(1,6);
-    // sum(1,5);
-
-    // function writeMyName(name){
-    //     document.write(name+"<br>");
-    // }
-    // writeMyName("jahid");
-    
-
-    // 15 Function Return
-    // function sum(n1, n2){
-    //     return n1+n2;
-    // }
-    // var newValue=sum(2.5,3)+4;
-    // document.write(newValue);
-
-
-    // 16 JavaScript Object
-    // var pc={
-    //     brand:"mac",
-    //     screen:"15.6",
-    //     isLaptop:true,
-    //     ram:"8GB",
-    //     disk:"500GB",
-    //     isSSD:true,
-    //     processor:"core i-5"
-    // }
-    // document.write(pc['brand']);
-    // document.write(pc.disk);
-
-
-    // 17 JavaScript Array
-    // var array=[
-    //     "a",
-    //     "b",
-    //     "c",
-    //     "d",
-    //     "e"
-    // ];
-    // document.write(array);
-    // document.write(array[3]);
-
-    // 18 For Loop Over Array
-    // var array=[
-    //     "a",
-    //     "b",
-    //     "c",
-    //     "d",
-    //     "b",
-    //     "c",
-    //     "d",
-    //     "e"
-    // ];
-    // var i;
-    // for(i=0; i<array.length; i=i+1){
-    //     document.write(array[i]+"<br>")
-    // }
-
-    // 19 For In Loop Over Array
-    // var array=["a","b","c","d","e"];
-    // for(var item in array){
-    //     document.write(array[item]+"<br>");
-    // }
-
-    // 20 For In Loop Over Object
-    // var person={
-    //     name:"jahid",
-    //     age:22,
-    //     city:"Dhaka"
-    // }
-    // for(var item in person){
-    //     document.write(item+"<br>"); // Key
-    //     document.write(person[item]+"<br>"); // Value
-    // }
-
-    // 21 Array Concate And Array Form
-    // var arr1=["a","b","c"];
-    // var arr2=["d","e","f"];
-
-    // var arr3= arr2.concat(arr1);
-    // document.write(arr3);
-    // document.write(arr2+','+arr1);
-
-    // str to arr convert
-    // var title = "Learn JavaScript";
-    // var titleArray = Array.from(title);
-
-    // document.write(titleArray+"<br>");
-    // document.write(titleArray[11]);
-
-    // 22 Array Filter(it return all value)
-    // var numArray=[30, 32, 40, 55, 60, 80, 90];
-    // var result = numArray.filter(function(item){
-    //     return item>50;
-    // });
-    // document.write(result);
-
-
-    // 23 Array Find(it return single value)
-    // var numArray=[30, 32, 40, 55, 60, 80, 90];
-    // var result = numArray.find(function(item){
-    //     return item>50;
-    // });
-    // document.write(result);
-
-    // Find Index(it return index value)
-    // var numArray=[30, 32, 40, 55, 60, 80, 90];
-    // var result = numArray.findIndex(function(item){
-    //     return item>50;
-    // });
-    // document.write(result);
-
-    // 24 Array ForEach Method
-    // var numArray=[30, 32, 40, 55, 60, 80, 90];
-    // numArray.forEach(function(numArray){
-    //     document.write(numArray+"<br>");
-    // })
-
-
-    // 25 Array Includes(it return true or false) And IndexOf
-    // var array1=[30, 32, 40, 55, 60,80, 90];
-    // var result = array1.includes(800);
-    // document.write(result);
-    // console.log(result)
-
-    // var array1=[30, 32, 40, 55, 60, 80, 90];
-    // var result = array1.indexOf(80);
-    // document.write(result);
-    // console.log(result)
-    
-    // 26 Array Pop Push Reverse
-    // var array1=[30, 32, 40, 55, 60, 80, 90];
-    // var result = array1.reverse();
-    // document.write(result);
-
-    // array1.push(100);
-    // array1.push(110);
-    // document.write(array1);
-
-    // array1.pop(); // it remove last element in array.
-    // array1.pop(); // it remove last element in array.
-    // document.write(array1);
-
-    // 27 Array Slice And Sort
-    // var array=[30, 32, 40, 55, 60, 80, 90];
-    // array.sort(); // it sort assending order.
-    // array.sort().reverse(); // it sort desnding order.
-
-    // var res = array.slice(1,3); // it means item in 1 to 3 but not 3
-    // document.write(res);
-
-
-    // 28 Array splice
-    // array.splice(index, removeCount, item);
-    // var array=[30, 32, 40, 55];
-    // array.splice(1,2);
-
-    // array.splice(3,0,45); // add item in array.
-    // document.write(array);
-
-
-    // 29 String Methods
-    // var country = "Bangladesh"; 
-    // var foren = "Sri-Lanka";
-    // document.write(
-        // country.charAt(5) // it help to know index value.
-        // country.concat(foren) 
-        // country.indexOf("l") // it helps to know index number.
-        // country.lastIndexOf("a") // it helps to know last index number.
-    // )
-    
-    // 30 & 31 String Methods
-    // var country = "    Bangladesh     "; 
-    
-    // document.write(
-        // country.replace("desh", "-deshi")
-        // country.substr(0,6) //it take index value (start, end);
-        // country.substring(6,10)
-
-        // country.toLowerCase()
-        // country.toUpperCase()
-        // country.trim()
-        // country.length
-        // country.trim().length
-    // )
-
-    // 32 JavaScript Date Object
-    // var obj = new Date();
-
-    // document.write(
-        // obj.getDate()
-        // obj.getFullYear()
-        // obj.getHours()
-        // obj.getMinutes()
-    // )
-
-    // 33 JavaScript Math Object
-    // var num = 7.4;
-    // document.write(
-        // Math.abs(num) // negative to positive number converter.
-        // Math.ceil(num) // float to integer number converter(up).
-        // Math.floor(num) // float to interger number converter(less).
-        // Math.max(2,5,1,9,8,6,4) // It return max number.
-        // Math.min(2,5,6,4,3,8,1,7) // It return minimum number.
-        // Math.random() // It genarate random float number.
-        // Math.round(num) // It round the float number to convert string number.
-
-    // )
-
-    // 34 JavaScript Numbers
-
-
-
-
-
-    
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        // js variable & case sensative & privitive data type.
+        //    var x= 10;
+        //    var y = 20 ;
+        //    var z = x+y;
+        //    document.write(z);
+
+        // 5.Non-primitive data type(obj,array).
+        // var info={
+        //     name:"jahid",
+        //     age:22,
+        //     city:"Dhaka",
+        // }
+        // document.write(info);
+        // document.write(info.name);
+        // document.write(info.age);
+        // document.write(info.city);
+
+        // var cities=['dhaka', 'Rangpur', 'Rajshahi']
+
+
+        // 6 Introduce With Operator
+        // goto img directory 
+
+
+        // 7 If Else Statement
+        // var age = 8;
+        // var city = "Dhaka";
+        // if(age>18 && city == "Dhaka"){
+        //     document.write('You are Adult')
+        // }else if(age = 18 && city == "Dhaka"){
+        //     document.write('You are Tinager');
+        // }else{
+        //     document.write('You are child');
+        // }
+
+        
+
+        // 8 Switch Case
+        // var marks = 100;
+        // switch(true){
+        //     case(marks<=100 && marks >= 80):
+        //         document.write('A+');
+        //     break;
+        //     case(marks<=79 && marks >= 70):
+        //         document.write('A');
+        //     break;
+        //     case(marks<=69 && marks >= 60):
+        //         document.write('B');
+        //     break;
+        //     case(marks<=59 && marks >= 50):
+        //         document.write('C');
+        //     break;
+        //     default:
+        //         document.write('D');
+        // }
+
+        // 9 Basic for loop
+        // var i;
+        // for(i=1;i<=10;i=i+1){
+        //     document.write(i+"<button>Submit</button><br>");
+        // }
+
+        // 10 Loop break continue
+        // var i;
+        // for(i=1;i<=10;i=i+1){
+        //     if(i==5){
+        //         // continue; // for ignore line no 5;
+        //     }
+        //     if(i==5){
+        //         break; // Stop loop 
+        //     }
+        //     document.write(i+"<button>Submit</button><br>");
+        // }
+
+        // 11 While Loop(entry control loop).
+        // var i = 0;
+        // while(i<3){
+        //     document.write(i+"<button>while Loop</button> <br>");
+        //     i=i+1;
+        // }
+
+
+        // 12 do while loop(exit control loop)
+        // var i = 0;
+        // do{
+        //     document.write(i+"<button>do whiloe Loop</button><br>");
+        //     i = i+1;
+        // }while(i<3)
+
+
+        // 13 JavaScript function
+        // function sum(){
+        //     var num1 = 10;
+        //     var num2 = 30;
+        //     var num3 = num1+num2;
+        //     document.write(num3+"<br>");
+        // }
+        // sum();
+        // sum();
+        // sum();
+
+        // 14 Function Parameter
+        // function sum(num1, num2){
+        //     var num3 = num1+num2;
+        //     document.write(num3+"<br>");
+        // }
+        // sum(1,2);
+        // sum(1,6);
+        // sum(1,5);
+
+        // function writeMyName(name){
+        //     document.write(name+"<br>");
+        // }
+        // writeMyName("jahid");
+        
+
+        // 15 Function Return
+        // function sum(n1, n2){
+        //     return n1+n2;
+        // }
+        // var newValue=sum(2.5,3)+4;
+        // document.write(newValue);
+
+
+        // 16 JavaScript Object
+        // var pc={
+        //     brand:"mac",
+        //     screen:"15.6",
+        //     isLaptop:true,
+        //     ram:"8GB",
+        //     disk:"500GB",
+        //     isSSD:true,
+        //     processor:"core i-5"
+        // }
+        // document.write(pc['brand']);
+        // document.write(pc.disk);
+
+
+        // 17 JavaScript Array
+        // var array=[
+        //     "a",
+        //     "b",
+        //     "c",
+        //     "d",
+        //     "e"
+        // ];
+        // document.write(array);
+        // document.write(array[3]);
+
+        // 18 For Loop Over Array
+        // var array=[
+        //     "a",
+        //     "b",
+        //     "c",
+        //     "d",
+        //     "b",
+        //     "c",
+        //     "d",
+        //     "e"
+        // ];
+        // var i;
+        // for(i=0; i<array.length; i=i+1){
+        //     document.write(array[i]+"<br>")
+        // }
+
+        // 19 For In Loop Over Array
+        // var array=["a","b","c","d","e"];
+        // for(var item in array){
+        //     document.write(array[item]+"<br>");
+        // }
+
+        // 20 For In Loop Over Object
+        // var person={
+        //     name:"jahid",
+        //     age:22,
+        //     city:"Dhaka"
+        // }
+        // for(var item in person){
+        //     document.write(item+"<br>"); // Key
+        //     document.write(person[item]+"<br>"); // Value
+        // }
+
+        // 21 Array Concate And Array Form
+        // var arr1=["a","b","c"];
+        // var arr2=["d","e","f"];
+
+        // var arr3= arr2.concat(arr1);
+        // document.write(arr3);
+        // document.write(arr2+','+arr1);
+
+        // str to arr convert
+        // var title = "Learn JavaScript";
+        // var titleArray = Array.from(title);
+
+        // document.write(titleArray+"<br>");
+        // document.write(titleArray[11]);
+
+        // 22 Array Filter(it return all value)
+        // var numArray=[30, 32, 40, 55, 60, 80, 90];
+        // var result = numArray.filter(function(item){
+        //     return item>50;
+        // });
+        // document.write(result);
+
+
+        // 23 Array Find(it return single value)
+        // var numArray=[30, 32, 40, 55, 60, 80, 90];
+        // var result = numArray.find(function(item){
+        //     return item>50;
+        // });
+        // document.write(result);
+
+        // Find Index(it return index value)
+        // var numArray=[30, 32, 40, 55, 60, 80, 90];
+        // var result = numArray.findIndex(function(item){
+        //     return item>50;
+        // });
+        // document.write(result);
+
+        // 24 Array ForEach Method
+        // var numArray=[30, 32, 40, 55, 60, 80, 90];
+        // numArray.forEach(function(numArray){
+        //     document.write(numArray+"<br>");
+        // })
+
+
+        // 25 Array Includes(it return true or false) And IndexOf
+        // var array1=[30, 32, 40, 55, 60,80, 90];
+        // var result = array1.includes(800);
+        // document.write(result);
+        // console.log(result)
+
+        // var array1=[30, 32, 40, 55, 60, 80, 90];
+        // var result = array1.indexOf(80);
+        // document.write(result);
+        // console.log(result)
+        
+        // 26 Array Pop Push Reverse
+        // var array1=[30, 32, 40, 55, 60, 80, 90];
+        // var result = array1.reverse();
+        // document.write(result);
+
+        // array1.push(100);
+        // array1.push(110);
+        // document.write(array1);
+
+        // array1.pop(); // it remove last element in array.
+        // array1.pop(); // it remove last element in array.
+        // document.write(array1);
+
+        // 27 Array Slice And Sort
+        // var array=[30, 32, 40, 55, 60, 80, 90];
+        // array.sort(); // it sort assending order.
+        // array.sort().reverse(); // it sort desnding order.
+
+        // var res = array.slice(1,3); // it means item in 1 to 3 but not 3
+        // document.write(res);
+
+
+        // 28 Array splice
+        // array.splice(index, removeCount, item);
+        // var array=[30, 32, 40, 55];
+        // array.splice(1,2);
+
+        // array.splice(3,0,45); // add item in array.
+        // document.write(array);
+
+
+        // 29 String Methods
+        // var country = "Bangladesh"; 
+        // var foren = "Sri-Lanka";
+        // document.write(
+            // country.charAt(5) // it help to know index value.
+            // country.concat(foren) 
+            // country.indexOf("l") // it helps to know index number.
+            // country.lastIndexOf("a") // it helps to know last index number.
+        // )
+        
+        // 30 & 31 String Methods
+        // var country = "    Bangladesh     "; 
+        
+        // document.write(
+            // country.replace("desh", "-deshi")
+            // country.substr(0,6) //it take index value (start, end);
+            // country.substring(6,10)
+
+            // country.toLowerCase()
+            // country.toUpperCase()
+            // country.trim()
+            // country.length
+            // country.trim().length
+        // )
+
+        // 32 JavaScript Date Object
+        // var obj = new Date();
+
+        // document.write(
+            // obj.getDate()
+            // obj.getFullYear()
+            // obj.getHours()
+            // obj.getMinutes()
+        // )
+
+        // 33 JavaScript Math Object
+        // var num = 7.4;
+        // document.write(
+            // Math.abs(num) // negative to positive number converter.
+            // Math.ceil(num) // float to integer number converter(up).
+            // Math.floor(num) // float to interger number converter(less).
+            // Math.max(2,5,1,9,8,6,4) // It return max number.
+            // Math.min(2,5,6,4,3,8,1,7) // It return minimum number.
+            // Math.random() // It genarate random float number.
+            // Math.round(num) // It round the float number to convert string number.
+
+        // )
+
+        // 34 JavaScript Numbers
+        // var num = 7.499;
+        
+        // document.write(
+            // Number.isFinite(num) // Check finite or nonfinite.
+            // Number.isInteger(num)
+            // Number.parseFloat(num) // convert interger to float
+            // Number.parseInt(num) // convert float to integer.
+            // num.toFixed(2)
+            // num.toString() // integer to string.
+        // )
 
     </script>
-</body>
+
+    <!-- <script>
+    // 35 JS Window Object
+    function objAlert(){
+        alert("Alert Success")
+    }
+
+    function objconfirm(){
+        let result = confirm("Are you confirmed !");
+        document.write(result);
+    }
+
+    function objPrompt(){
+        let Name = prompt("Write Your Name");
+        document.write(Name);
+    }
+
+    function objOpen(){
+        open()
+    }
+
+    function objClose(){
+        close()
+    }
+
+    setTimeout(function(){
+        alert("Alert after 5 mins")
+    },5000)
+
+    </script> -->
+
+    <!-- <script>
+    // 36 JS Navigator Object
+    var appCodeName = navigator.appCodeName;
+    var appName = navigator.appName;
+    var appVersion = navigator.appVersion;
+    var cookieEnabled = navigator.cookieEnabled;
+    var language = navigator.language;
+    var userAgent = navigator.userAgent;
+    var platform = navigator.platform;
+
+    document.write(appCodeName+"<br><br>")
+    document.write(appName+"<br><br>")
+    document.write(appVersion+"<br><br>")
+    document.write(cookieEnabled+"<br><br>")
+    document.write(language+"<br><br>")
+    document.write(userAgent+"<br><br>")
+    document.write(platform+"<br><br>")
+    </script> -->
+    
+    <!-- 37 js geolocation -->
+     <!-- <script>
+        navigator.geolocation.getCurrentPosition(function(position){
+            let altitude = position.coords.altitude;
+            let latitude = position.coords.latitude;
+            let longitude = position.coords.longitude;
+            let speed = position.coords.speed;
+
+            document.write("altitude: "+altitude+"<br>")
+            document.write("latitude: "+latitude+"<br>")
+            document.write("longitude: "+longitude+"<br>")
+            document.write("speed: "+speed+"<br>")
+
+        })
+     </script> -->
+
+
+     <!-- 38 Js common events -->
+     <!-- <div>
+        <button onclick="MyEvent('click hoyese')">On Click</button>
+        <button onmouseover="MyEvent('mouse over hoyese')">mouser over hoyese</button>
+        <button onmouseout="MyEvent('mouse out hoyese')">mouser out hoyese</button>
+     </div> -->
+      <!-- <script>
+        function MyEvent(msg){
+            // document.write(msg+"</br>")
+            console.log(msg+"</br>")
+        }
+      </script> -->
+
+      <!-- 39 JS Common Events -->
+       
+    </body>
 </html>
