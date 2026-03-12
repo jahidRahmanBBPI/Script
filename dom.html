@@ -148,7 +148,7 @@
       </script> -->
     <!-- ================================================================== -->
       <!-- 47 DOM Change Attribute Value -->
-       <img id="laravel_img" src="https://logowik.com/content/uploads/images/laravel8530.jpg" height="500" width="500" class="border" alt="">
+       <!-- <img id="laravel_img" src="https://logowik.com/content/uploads/images/laravel8530.jpg" height="500" width="500" class="border" alt="">
 
        <button onclick="ChangeAttr()">Change</button>
 
@@ -159,42 +159,29 @@
             image.height="400"
             image.width="400"
         }
+       </script> -->
+
+    <!-- ================================================================== -->
+       <!-- 48 DOM Query Selector -->
+       <h1 id="myID">h1</h1>
+       <h6 class="myClass">h6</h6>
+       <p name="MyName">p</p>
+       <h4>h4</h4>
+       <input placeholder="....."><br><br>
+       <button onclick="FindElement()">Click</button>
+
+       <script>
+        function FindElement(){
+            document.querySelector('h4').innerHTML="h4 manupulated"
+            document.querySelector('.myClass').innerHTML="h6 manupulated"
+            document.querySelector('#myID').innerHTML="h1 manupulated"
+            document.querySelector('p[name="MyName"]').innerHTML="p manupulated"
+            document.querySelector('input').placeholder='New Placeholder'
+        }
        </script>
 
-    <!-- ================================================================== -->
 
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-    <!-- ================================================================== -->
-
-
-
-
-
+ 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
