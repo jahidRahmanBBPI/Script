@@ -21,7 +21,23 @@
 
 
 <!-- ================================================================== -->
+<!-- 51 Ajax Get Request in Details -->
+    <!-- 51 Ajax Get Request in Details -->
+    <button onclick="ExcGetRequest()">ExcGetRequest</button>
 
+    <script>
+        function ExcGetRequest(){
+            // document.write('hello')
+            var URL = "https://crud.teamrabbil.com/api/v1/CreateProduct";
+            var Configuration = {method:"GET"};
+
+            fetch(URL, Configuration)
+            // .then(response=>response.json())
+            .then(result=>console.log(result))
+            .catch(err=>document.write(err));
+            
+        }
+    </script>
 <!-- ================================================================== -->
 
 <!-- ================================================================== -->
