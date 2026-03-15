@@ -40,17 +40,21 @@
     </script>
 <!-- ================================================================== -->
     <!-- 52 Ajax Post Request In Details -->
-
+    <button onclick="ExecPostRequest()">ExecPostRequest</button>
     <script>
         function ExecPostRequest(){
             var URL = "https://crud.teamrabbil.com/api/v1/CreateProduct";
             var BodyData = {Img:"123", ProductCode:"123", ProductName:"123", Qty:"123", TotalPrice:"123", UnitPrice:"123"}
             var config = {
                 method:"POST",
-                headers:{'Accept':'application/json', 'Content-Type':'application/json',
-                body: JSON.stringify(BodyData)
+                headers:{'Accept':'application/json', 'Content-Type':'application/json'},
+                body:JSON.stringify(BodyData)
+                
                 }
-            }
+                fetch(URL, config)
+                .then(response=>response.JSON())
+                .then(result=>console.log(result))
+                .then(err=>console.log(err))
         }
     </script>
 <!-- ================================================================== -->
