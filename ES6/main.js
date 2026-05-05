@@ -64,9 +64,104 @@ function MyName() {
 // let name = "rainbow"; // re-declare kora jay na, error dekhabe
 // console.log(name);
 
-const name="jahid rahman";;
-const name = "rainbow"; // re-declare kora jay na, error dekhabe
-console.log(name);
+// const name="jahid rahman";;
+// const name = "rainbow"; // re-declare kora jay na, error dekhabe
+// console.log(name);
+
+// 10 Variable Scope
+// var name = "global scope"; // global scope
+
+// function myFunction() {
+//     // var name = "local scope"; // local scope
+//     console.log(name); // Output: local scope
+// }
+
+// myFunction();
+
+
+// 11 Variable Hoisting
+// name = "Jahid Rahman"; // Variable assignment before declaration
+// console.log(name);
+// var name; // Variable declaration (hoisted to the top)
+
+
+// 12 Simple For Loop
+// var i;
+// for (i = 0; i < 5; i++) {
+//     console.log(i + " " + "Jahid Rahman");
+// }
+
+
+// 13 Simple For of Loop (array er element gulo ke iterate kore)
+// let names = ['Jahid', 'Rahman', 'Rainbow'];
+// for (let name of names) {
+//     console.log(name);
+// }
+
+
+// 14 & 15 Object Basic Concept
+// var person = {name: 'Jahid Rahman', age: 23, city: 'Dhaka', student: true};
+
+// console.log(person.name);
+// console.log(person['name']);
+
+// nested object 
+// var personPro={
+//     shirt:{color:'red',
+//             size:'M',
+//             price:"500"
+//         },
+
+//     swatter:{color:'blue',
+//             size:'L',
+//             price:"1000"
+//         },
+//     face:{
+//         similing:"yes",
+//         eye:"black",
+//         chosma: "no"
+//         }
+//     }
+
+
+// console.log(personPro.shirt.color); // output will come in nested array.
+
+
+// 16 For in loop (props means properties in js)
+// var person = {name: 'Jahid Rahman', age: 23, city: 'Dhaka', student: true};
+
+// for (var props in person) {
+    // console.log(props + ": " + person[props]); (output will be name: Jahid Rahman, age: 23, city: Dhaka, student: true)
+    // console.log(props); (output will be name, age, city, student)
+// }
+
+
+// 17 decision making
+// var person = {name: 'Jahid Rahman', age: 23, city: 'Dhaka', student: true};
+// if (person.age > 18) {
+//     console.log("You are an Man.");
+// }
+// else if (person.age > 12) {
+//     console.log("You are a teenager.");
+// }
+// else if (person['age'] < 22) {
+//     console.log("You have responsibility.");
+// }
+// else {
+//     console.log("You are a child.");
+// }
+
+
+// 18 simple function and parameterized functions
+
+
+
+
+
+
+
+
+
 
 
 // Example of let and const
