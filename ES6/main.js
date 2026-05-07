@@ -153,9 +153,32 @@ function MyName() {
 
 
 // 18 simple function and parameterized functions
+// Simple function
+// function myFunction() {
+//     var x= 10;
+//     var y= 20;
+//     var z = x + y;
+//     console.log(z);
+// }
+// myFunction(); // output will be 30
 
 
+// Parameterized function
+// function myFunction(x, y) {
+//     var z = x + y;
+//     console.log(z);
+// }
+// myFunction(20, 20);
 
+
+// 19 rest parameters functions
+// function calculateSum(...numbers) {
+//     // console.log(numbers); // output will be an array of numbers [1, 2, 3, 4, 5]
+//     console.log(numbers[3]); // output will be 4, x[0] will be 1, x[1] will be 2, x[2] will be 3, x[4] will be 5
+// }
+// calculateSum(1, 2, 3, 4, 5);
+
+// 20 function returns
 
 
 
