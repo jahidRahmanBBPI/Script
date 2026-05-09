@@ -179,13 +179,70 @@ function MyName() {
 // calculateSum(1, 2, 3, 4, 5);
 
 // 20 function returns
+// function MyFunction() {
+//     return "Hello, World!";
+// }
+// console.log(MyFunction()); // output will be Hello, World!
 
 
+// function funOne(){
+//     return 20;
+// }
+
+// function funTwo(){
+//     return 30;
+// }
+
+// console.log(funOne() + funTwo()); // output will be 50
+
+// 21 anonymous functions(re-assign kora jay, but re-declare kora jay na)
+// var myFunction = function(...x) {
+//     return x;
+// }
+// console.log(myFunction(1, 2, 3, 4, 5)); // output will be an array of numbers [1, 2, 3, 4, 5]
 
 
+// var myFun = function(){
+//     return "Hello, World!";
+// }
+// var myFun = function(){
+//     return "Hello, ES6!";
+// }
+// console.log(myFun()); // output will be Hello, ES6!
+
+// 22 arrow function
+// var myArrow= () => {
+//     return "Hello, ES6!";
+// }   
+// myArrow(); // output will be Hello, ES6!
+
+// pass parameter in arrow function
+// var add = (a, b) => {
+//     return a + b;
+// }
+// console.log(add(5, 3)); // output will be 8
+
+// rest parameter in arrow function
+// var calculateSum = (...numbers) => {
+//     let sum = 0;
+//     for (let i of numbers) {
+//         sum += i;
+//     }
+//     return sum;
+// }
+// console.log(calculateSum(1, 2, 3, 4, 5)); // output will be 15
 
 
+// var myArrow = (...x) => {
+//     return x;
+// }
+// console.log(myArrow(1, 2, 3, 4, 5)); // output will be an array of numbers [1, 2, 3, 4, 5]
 
+
+var myArrow = () =>{
+    return "Hello, ES6!";
+}
+console.log(myArrow()); // output will be Hello, ES6!
 
 // Example of let and const
 // let name = 'Alice';
