@@ -239,10 +239,44 @@ function MyName() {
 // console.log(myArrow(1, 2, 3, 4, 5)); // output will be an array of numbers [1, 2, 3, 4, 5]
 
 
-var myArrow = () =>{
-    return "Hello, ES6!";
-}
-console.log(myArrow()); // output will be Hello, ES6!
+// var myArrow = () =>{
+//     return "Hello, ES6!";
+// }
+// console.log(myArrow()); // output will be Hello, ES6!
+
+
+// 23 ES6 Simple Arrays(like foreach loop)
+// var myArray = ["A", "B", "C"];
+// var myArrayPro = new Array("A", "B", "C", "D", "E", "F");
+// // console.log(myArray[0]);
+
+// for(let item of myArrayPro){
+//     console.log(item);
+// }
+
+// 25 Multidimensional Arrays
+// var bangladesh = ["Dhaka", "Chittagong", "Khulna"];
+// var nepal = ["Kathmandu", "Pokhara", "Lalitpur"];
+// var bhutan = ["Thimphu", "Paro", "Punakha"];
+
+// var asia = [bangladesh, nepal, bhutan];
+// console.log(asia[0][1]);
+
+
+// 26 array de-structuring
+// var countries = ["Bangladesh", "Nepal", "Bhutan"];
+// var[a,,c] = countries;
+// console.log(c);
+
+
+
+
+
+
+
+
+
+
 
 // Example of let and const
 // let name = 'Alice';
