@@ -269,12 +269,44 @@ function MyName() {
 // console.log(c);
 
 
+// 27 es6 map(key-value pairing)
+// var myMap = new Map();
+// myMap.set("name", "Jahid Rahman");
+// myMap.set("age", 23);
+// myMap.set("city", "Dhaka");
+// myMap.set("class", "BSc in CSE");
+// myMap.set("class", "MSc in CSE"); // same key te re-assign kora jay, but re-declare kora jay na
+// myMap.set("class", "ssc");
+
+// var map = new Map();
+// map.set("key1", "Bangladesh");
+// map.set("key2", "Nepal");
+// map.set("key3", "Bhutan");
+
+// console.log(map.values());
+// console.log(map.keys());
 
 
+// 28 es6 map (printing object using for of loop and for of loop with keys and values)
+var map = new Map();
+map.set("key1", "Bangladesh");
+map.set("key2", "Nepal");
+map.set("key3", "Bhutan");
 
+// for (let [key, value] of map) {
+//     console.log(`${key}: ${value}`);
+// }
 
+// for(let myvalue of map.values()){
+//     console.log(myvalue);
+// }
 
+// for(let mykey of map.keys()){
+//     console.log(mykey);
+// }
 
+// 29 es6 map()
+// The more useful someone is, the more valuable he is. 
 
 
 
