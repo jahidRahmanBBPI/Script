@@ -288,10 +288,10 @@ function MyName() {
 
 
 // 28 es6 map (printing object using for of loop and for of loop with keys and values)
-var map = new Map();
-map.set("key1", "Bangladesh");
-map.set("key2", "Nepal");
-map.set("key3", "Bhutan");
+// var map = new Map();
+// map.set("key1", "Bangladesh");
+// map.set("key2", "Nepal");
+// map.set("key3", "Bhutan");
 
 // for (let [key, value] of map) {
 //     console.log(`${key}: ${value}`);
@@ -307,9 +307,21 @@ map.set("key3", "Bhutan");
 
 // 29 es6 map()
 // The more useful someone is, the more valuable he is. 
+// delete method use kore map er kono key ke delete kora jay
+var myMap = new Map();
+myMap.set("key1", "Bangladesh");
+myMap.set("key2", "Nepal");
+myMap.set("key3", "Bhutan");
 
+myMap.delete("key2"); // key2 ke delete kore dibe
+myMap.delete("key3"); // key3 ke delete kore dibe
 
+// map er sob key-value pair ke delete kore dibe
+// myMap.clear();
 
+for(let myValue of myMap.values()){
+    console.log(myValue);
+}
 // Example of let and const
 // let name = 'Alice';
 // const age = 30;
