@@ -308,20 +308,67 @@ function MyName() {
 // 29 es6 map()
 // The more useful someone is, the more valuable he is. 
 // delete method use kore map er kono key ke delete kora jay
+// var myMap = new Map();
+// myMap.set("key1", "Bangladesh");
+// myMap.set("key2", "Nepal");
+// myMap.set("key3", "Bhutan");
+
+// myMap.delete("key2"); // key2 ke delete kore dibe
+// myMap.delete("key3"); // key3 ke delete kore dibe
+
+// map er sob key-value pair ke delete kore dibe
+// myMap.clear();
+
+// for(let myValue of myMap.values()){
+//     console.log(myValue);
+// }
+
+// ES6 get method use kore map er kono key er value ke access kora jay
 var myMap = new Map();
 myMap.set("key1", "Bangladesh");
 myMap.set("key2", "Nepal");
 myMap.set("key3", "Bhutan");
 
-myMap.delete("key2"); // key2 ke delete kore dibe
-myMap.delete("key3"); // key3 ke delete kore dibe
+// console.log(myMap.get("key1")); // output will be Bangladesh
 
-// map er sob key-value pair ke delete kore dibe
-// myMap.clear();
 
-for(let myValue of myMap.values()){
-    console.log(myValue);
-}
+// ES6 has method use kore map er kono key ache kina check kora jay
+
+// if(myMap.has("key1")){
+//     console.log("Key1 exists in the map.");
+// }else{
+//     console.log("Key1 does not exist in the map.");
+// }
+
+
+
+
+
+// 30 es6 set
+// var mySet = new Set();
+// mySet.add("Bangladesh");
+// mySet.add("Nepal");
+// mySet.add("Bhutan");
+// mySet.add("Bangladesh"); // duplicate value add kora jay na, output will be Bangladesh, Nepal, Bhutan
+
+// console.log(mySet);
+
+var mySet = new Set(["A", "B", "C", "D", "E", "F"]);
+console.log(mySet);
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////
+
+
 // Example of let and const
 // let name = 'Alice';
 // const age = 30;
