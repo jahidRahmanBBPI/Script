@@ -371,7 +371,20 @@ mySet.add("Maldives");
 // console.log(mySet); // output will be Bangladesh, Bhutan, Maldives
 
 // Size method use kore set er size ke check kora jay
-console.log(mySet.size); // output will be 4
+// console.log(mySet.size); // output will be 4
+
+// values method use kore set er sob element ke access kora jay
+// console.log(mySet.values()); // output will be an iterable of set values
+
+// set er spacific value ache kina check kora jay
+// if(mySet.has("Bangladesh")){
+//     console.log("Bangladesh exists in the set.");
+// }else{
+//     console.log("Bangladesh does not exist in the set.");
+// }
+
+
+
 
 
 
