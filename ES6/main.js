@@ -353,11 +353,25 @@ myMap.set("key3", "Bhutan");
 
 // console.log(mySet);
 
-var mySet = new Set(["A", "B", "C", "D", "E", "F"]);
-console.log(mySet);
+// var mySet = new Set(["A", "B", "C", "D", "E", "F"]);
+// console.log(mySet);
 
+// 31 es6 set
+var mySet = new Set();
+mySet.add("Bangladesh");
+mySet.add("Nepal");
+mySet.add("Bhutan");
+mySet.add("Maldives");
 
+// mySet.clear(); // set er sob element ke delete kore dibe
+// console.log(mySet); // output will be an empty set
 
+// Delete method use kore set er kono element ke delete kora jay
+// mySet.delete("Nepal"); // Nepal ke delete kore dibe
+// console.log(mySet); // output will be Bangladesh, Bhutan, Maldives
+
+// Size method use kore set er size ke check kora jay
+console.log(mySet.size); // output will be 4
 
 
 
