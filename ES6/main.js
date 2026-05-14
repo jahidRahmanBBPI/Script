@@ -384,7 +384,11 @@ mySet.add("Maldives");
 // }
 
 
+// 32 es6 class
+// theoritical concept of class
 
+
+// 33 es6 create class and use
 
 
 
