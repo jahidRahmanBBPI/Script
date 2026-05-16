@@ -389,7 +389,26 @@ mySet.add("Maldives");
 
 
 // 33 es6 create class and use
+// abs()
+// ireturns the absolte value of a number. 
 
+// ceil()
+// it returns a smallest integer value, greater than or equal to the given number.
+
+// floor()
+// it returns largest integer value, lower than or equal ot the given number.
+
+// max()
+// it returns maximum value of the given numbers.
+
+// min()
+// it returns minimum value of the given numbers.
+
+// random()
+// it returns a random number between 0(inclusive) and 1(exclusive).
+
+// round()
+// it returns closest integer value to the given number.
 
 
 
