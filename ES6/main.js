@@ -410,6 +410,76 @@ mySet.add("Maldives");
 // round()
 // it returns closest integer value to the given number.
 
+////////////////////
+// class MyClass{
+//     MyFun(){
+//         console.log('first go to the ES6 directory.')
+//     }
+
+//     MyFun1(){
+//         console.log('then hint into the terminal')
+//     }
+
+//     MyFun2(){
+//         console.log('node main.js')
+//     }
+
+//     MyFun3(){
+//         console.log('then you will see the output.')
+//     }
+
+//     MyFun4(){
+//         console.log('That is the process.')
+//     }
+
+//     MyFun5(name){
+//         console.log(name)
+//     }
+// }
+
+// var obj = new MyClass;
+// obj.MyFun();
+// obj.MyFun1();
+// obj.MyFun2();
+// obj.MyFun3();
+// obj.MyFun4();
+// obj.MyFun5("Jahid"); // Using parameter.
+
+
+// 34 es6 class constructor.
+// class MyClass{
+//     constructor(){
+//         console.log("Hello I am constructor");
+//     }
+// }
+// new MyClass();
+
+// 35 es6 class constructor(parameter pass).
+// class MyClass{
+//     constructor(a,b){
+//         console.log(a+b);
+//     }
+// }
+// new MyClass(10,20);
+
+
+// class MyClass{
+//     constructor(a,b){
+//         this.firstNum = a
+//         this.secondNum = b
+//     }
+//     add(){
+//         let result = this.firstNum + this.secondNum
+//     }
+// }
+// new MyClass(10,20);
+// MyClass.add();
+
+
+
+
+
+
 
 
 
