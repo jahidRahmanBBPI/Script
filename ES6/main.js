@@ -482,7 +482,7 @@ mySet.add("Maldives");
 class MyClass{
     // hello(){
     static hello(){
-        console.log('Hello World');
+        // console.log('Hello World');
     }
 }
 
@@ -492,40 +492,63 @@ class MyClass{
 MyClass.hello(); // static method
 
 
-
-
-
-
-
-/////////////////////////////
-
-
-// Example of let and const
-// let name = 'Alice';
-// const age = 30;
-// console.log(`Name: ${name}, Age: ${age}`);
-
-// // Example of arrow functions
-// const add = (a, b) => a + b;
-// console.log(`Sum: ${add(5, 3)}`);
-
-// // Example of template literalsconst greeting = `Hello, ${name}! You are ${age} years old.`;
-// console.log(greeting);  
-
-// // Example of destructuringconst person = { firstName: 'Bob', lastName: 'Smith' };
-// const { firstName, lastName } = person;
-// console.log(`First Name: ${firstName}, Last Name: ${lastName}`);
-
-// // Example of classes
-// class Person {
-//     constructor(name, age) {
-//         this.name = name;
-//         this.age = age;
+// 37 & 38 es6 class inheritance
+// class parent{
+//     hello1(){
+//         console.log("Jahid");
 //     }
-
-//     greet() {       return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
+//     hello2(){
+//         console.log("Rahman");
+//     }
+//     hello3(){
+//         console.log("Hello Function 3.");
 //     }
 // }
 
-// const person1 = new Person('Charlie', 25);
-// console.log(person1.greet());
+// class child extends parent{
+//      hello3(){
+//         console.log("Method Over-writing Done!");
+//      }
+// }
+
+// var obj = new child();
+// var obj = new parent();
+// obj.hello1();
+// obj.hello2();
+// obj.hello3();
+
+
+// 39 es6 super keyword // child class thaka parent class ar function call korta super keyword use hoi.
+// class parent{
+//     hello1(){
+//         console.log("Jahid");
+//     }
+//     hello2(){
+//         console.log("Rahman");
+//     }
+    
+// }
+// class child extends parent{
+//     demo(){
+//         super.hello1();
+//         super.hello2();
+//     }
+// }
+
+// var obj = new child();
+// obj.demo();
+
+// 40 ES6 Module
+// Theory class 
+
+/* 41 es6 module
+Class Export => Class Improt,
+Function Export => Class Import,
+Variable Export => Variable Import.
+
+Named: Export-Import By Using Same Name
+Default: Export - Import By Using Any Name
+
+*/
+
+// 42 es6 module export import go to the module folder.
