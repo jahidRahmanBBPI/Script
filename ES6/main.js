@@ -463,22 +463,33 @@ mySet.add("Maldives");
 // new MyClass(10,20);
 
 
+// Parameterized constructor.
 // class MyClass{
 //     constructor(a,b){
 //         this.firstNum = a
 //         this.secondNum = b
 //     }
 //     add(){
-//         let result = this.firstNum + this.secondNum
+//         let result = this.firstNum + this.secondNum;
+//         console.log(result);
 //     }
 // }
-// new MyClass(10,20);
-// MyClass.add();
+// var obj = new MyClass(10,20);
+// obj.add();
 
 
+// 36 es6 static keyword
+class MyClass{
+    // hello(){
+    static hello(){
+        console.log('Hello World');
+    }
+}
 
+// var obj = new MyClass();
+// obj.hello();
 
-
+MyClass.hello(); // static method
 
 
 
